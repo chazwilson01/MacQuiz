@@ -65,14 +65,16 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCORPg0naNdGeNKhWqx3uf1t23_tc4HfT8",
-  authDomain: "funquizgame-7e388.firebaseapp.com",
-  projectId: "funquizgame-7e388",
-  storageBucket: "funquizgame-7e388.appspot.com",
-  messagingSenderId: "52555073590",
-  appId: "1:52555073590:web:acf09083912079995db097",
-  measurementId: "G-8RBXHLCSXJ"
+  apiKey: "AIzaSyCciP3MAEhWRxgX5EY_zmV_KesqZhLqKw0",
+  authDomain: "macquiz-567dd.firebaseapp.com",
+  databaseURL: "https://macquiz-567dd-default-rtdb.firebaseio.com",
+  projectId: "macquiz-567dd",
+  storageBucket: "macquiz-567dd.firebasestorage.app",
+  messagingSenderId: "590627966567",
+  appId: "1:590627966567:web:521ab647396f53b7248ec2",
+  measurementId: "G-4EZZWCFVTC"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

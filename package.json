@@ -1,10 +1,13 @@
 {
   "name": "project",
   "version": "0.0.0",
+  "homepage": "https://your-username.github.io/your-repo-name",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 4173"
+    "preview": "vite preview --port 4173",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@cloudinary/url-gen": "^1.8.6",
@@ -12,9 +15,11 @@
     "bootstrap": "^5.2.2",
     "bootstrap-vue": "^2.23.1",
     "exif-js": "^2.3.0",
-    "firebase": "^9.14.0",
+    "firebase": "^9.23.0",
+    "gh-pages": "^6.3.0",
     "imagvue": "^0.0.5",
     "localforage": "^1.10.0",
+    "node-fetch": "^3.3.2",
     "operator": "^1.8.0",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5",
@@ -23,6 +28,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.3",
-    "vite": "^3.0.9"
+    "vite": "^3.2.11"
   }
 }

@@ -1,7 +1,6 @@
 <template>
   <div class="navBar">
-    <router-link id="homeBtn" to="/" @click.native = "test"><img alt="FunQuizGame Logo" class="logo" src="src/assets/images/logo-test.png"/></router-link>
-    <router-link id="homeBtn" to="/" @click.native = "test">FunQuizGame</router-link>
+    <router-link id="homeBtn" to="/" @click.native = "test"><img alt="FunQuizGame Log" class="logo" src="/dist/assets/images/logo-test.png"/></router-link>
   </div>
   <div class="container">
     <finished
@@ -39,7 +38,7 @@
 import  VButton from "./components/VButton.vue";
 import Finished from "./components/Finished.vue"
 import { ref } from 'vue';
-
+import logoTest from "/dist/assets/images/logo-test.png"; // Import the image using the alias
 const TOTAL_NUMBER = 0 //delete
 const ALL_PLACES = ["77 Mac",
   "Bell",
@@ -261,7 +260,7 @@ export default {
       const buildingPicutresList = imageMap.get(buildingName)
       const randomImageIndex = Math.floor(Math.random() * buildingPicutresList.length)
       const randomImageName = buildingPicutresList[randomImageIndex]
-      const path = "src/assets/images/"
+      const path = "/dist/assets/images/"
       const img = path + tag + "/" + buildingName + "/" + randomImageName + ".jpg"
       // console.log("----------------Break---------------------")
       // console.log(img)
