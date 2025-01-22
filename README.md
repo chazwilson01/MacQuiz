@@ -1,34 +1,55 @@
 # MacQuiz
 
-MacQuiz is a web-based quiz that tests your knowledge of Macalester College's campus by displaying a random image and the user having to guess where it is. It is made with Vue 3 as well as other libraries that are mentioned later in the README. 
+## Overview
 
-## Recommended IDE Setup
+MacQuiz is an engaging online quiz game that challenges players to identify where photos were taken on the Macalester College campus in St. Paul, MN. Players can select a difficulty level, which determines how challenging the pictures are to guess. With three lives and a timer influencing your score, the game keeps you on your toes. Add your name and score to the leaderboard to compete with others!
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Features
 
-## Customize configuration
+- **Difficulty Levels**: Choose from different difficulty settings to adjust the challenge level of the game.
+- **Interactive Gameplay**: Guess the correct location of a picture from four options.
+- **Timer-Based Scoring**: Earn more points for quicker answers.
+- **Lives System**: Players have three lives; a wrong guess costs one life.
+- **Leaderboard**: Add your name and score to the Firebase-backed leaderboard.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Technologies Used
 
-## Project Setup
+- **Vue.js**: Framework used for building the user interface and game mechanics.
+- **Firebase Realtime Database**: Stores and retrieves leaderboard data.
+- **CSS**: Provides styling for the app interface.
 
-```sh
-Install:
-  vue 3.2.38
-  vuex 4.0.2
-  vuex-persist 3.1.3
-  firebase 9.14.0
-  animate.css 4.1.1
-```
+## Live Demo
 
-### Compile and Hot-Reload for Development
+Experience MacQuiz here: [MacQuiz](https://macquiz-567dd.web.app/#/)
 
-```sh
-npm run dev
-```
+## How to Play
 
-### Compile and Minify for Production
+1. **Select a Difficulty**:
 
-```sh
-npm run build
-```
+   - On the home page, choose the difficulty level that suits you best.
+
+2. **Guess the Picture**:
+
+   - View the picture and select one of the four options to identify where it was taken on campus.
+
+3. **Score Points**:
+
+   - The faster you answer, the more points you earn.
+   - Incorrect answers will cost you one life. You have three lives total.
+
+4. **Leaderboard**:
+
+   - After the game ends, enter your name and submit your score to the leaderboard.
+
+## Acknowledgements
+
+- Thanks to Macalester College for the inspiration and photo resources.
+- Tanks to my fellow classmates/teammates for the help with the project
+
+## Contact
+
+Have questions or suggestions? Get in touch:
+
+- **Email**: [wilsonc98@uww.edu](mailto\:wilsonc98@uww.edu)
+- **GitHub**: chazwilson01
+
